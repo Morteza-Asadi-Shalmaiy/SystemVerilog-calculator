@@ -13,3 +13,36 @@ Compile Options
 -Wall -g2012
 
 design.sv is the right panel & testbench.sv is the left Panel
+---
+
+# Version 01 — Base Calculator [https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/01-calculator-base]
+
+v01 — Base Calculator
+Basic 5-operation module + simple testbench.
+
+This is the initial version of the digital calculator implemented in Verilog/SystemVerilog.
+
+### Features
+- Supports 5 operations: `+`, `-`, `*`, `/`, `**`
+- Signed inputs and outputs
+- Parameterized width (`nb`)
+- Basic testbench for functional testing
+- No special error handling yet
+
+This version serves as the foundation for all later improvements.
+---
+https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/02-calculator-division
+v02 — Division-by-Zero Protection
+
+Adds divide-by-zero check.
+# Version 02 — Division-by-Zero Handling
+
+In this version, the calculator design is improved by adding safe handling for division operations.
+
+### Added Features
+- Detects division by zero (`b == 0`)
+- Prints a simulation warning using `$display`
+- Prevents invalid division results
+- Keeps operation logic identical to Version 01 for other operations
+
+A safer and more robust design compared to the base version.
