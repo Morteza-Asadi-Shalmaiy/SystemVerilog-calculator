@@ -14,46 +14,53 @@ Compile Options
 
 design.sv is the right panel & testbench.sv is the left Panel
 
-
 ---
 
-
-# Version 01 — Base Calculator 
-
-Basic 5-operation module + simple testbench. [01-calculator-base](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/01-calculator-base)
-
-<details> 
-
-This is the initial version of the digital calculator implemented in Verilog/SystemVerilog.
-### Features
-- Supports 5 operations: `+`, `-`, `*`, `/`, `**`
-- Signed inputs and outputs
-- Parameterized width (`nb`)
-- Basic testbench for functional testing
-- No special error handling yet
-
-This version serves as the foundation for all later improvements.
-
-</details>
-
-
----
-
-
-# Version 02 — Division-by-Zero Handling 
-Adds divide-by-zero check. [02-calculator-division](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/02-calculator-division)
+## 🔹 Version 01 — Base Calculator  
+Basic 5-operation module + simple testbench  
+📁 **Folder:** [01-calculator-base](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/01-calculator-base)
 
 <details>
-  
-In this version, the calculator design is improved by adding safe handling for division operations.
-### Added Features
+  <summary><strong>Click to view more details</strong></summary>
+  <br>
+
+This is the initial version of the calculator.
+
+### ✨ Features
+- Supports 5 operations: `+`, `-`, `*`, `/`, `**`
+- Signed inputs/outputs (`signed`)
+- Parameterized width (`nb`)
+- Basic testbench included
+- No error or edge-case handling yet
+
+This version is the foundation for all later improvements.
+
+</details>
+
+---
+
+## 🔹 Version 02 — Division-by-Zero Handling  
+Adds safe divide-by-zero protection  
+📁 **Folder:** [02-calculator-division](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/02-calculator-division)
+
+<details>
+  <summary><strong>Click to view details</strong></summary>
+  <br>
+
+This version enhances reliability for division operations.
+
+### ✨ Improvements
 - Detects division by zero (`b == 0`)
-- Prints a simulation warning using `$display`
-- Prevents invalid division results
-- Keeps operation logic identical to Version 01 for other operations
+- Displays a simulation warning using `$display`
+- Prevents undefined division results
+- All other operations remain identical to Version 01
 
 A safer and more robust design compared to the base version.
+
 </details>
+
+---
+
 
 
 ---
