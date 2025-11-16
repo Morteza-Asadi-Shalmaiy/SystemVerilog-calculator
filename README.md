@@ -1,18 +1,38 @@
 # verilog-calculator
-🧮 A modular, parameterized 12-digit digital calculator designed in Verilog HDL
+🧮 **A modular, parameterized 12-digit digital calculator designed in Verilog/SystemVerilog**
 
-made in https://edaplayground.com
-for testing for yourself follow this setups in https://edaplayground.com :
-Testbench + Design :
-SystemVerilog/Verilog
+This project implements a fully parameterized 5-operation digital calculator, supporting:
+- ✔ Addition  
+- ✔ Subtraction  
+- ✔ Multiplication  
+- ✔ Division (with divide-by-zero protection)  
+- ✔ Exponentiation (with negative-power checks)
 
-Tools & Simulators :
-Icarus Verilog 12.0
+The design is written in **SystemVerilog**, fully signed (`signed`) and scalable using parameter `nb`.
 
-Compile Options
--Wall -g2012
+---
 
-design.sv is the right panel & testbench.sv is the left Panel
+## 🔧 Simulation Environment (EDA Playground)
+The project is compatible with **https://edaplayground.com**.  
+To run the simulation:
+
+- **Left Panel:** `testbench.sv`  
+- **Right Panel:** `design.sv`  
+- **Language:** SystemVerilog / Verilog  
+- **Simulator:** *Icarus Verilog 12.0*  
+- **Compile Options:**  *Wall -g2012*
+
+You can copy/paste the modules directly into EDA Playground and run the simulation instantly.
+
+---
+
+# 📁 Versions
+two development versions are included, each representing a step in the calculator’s evolution.
+**Expand the sections below for detailed version history.**
+
+<details>
+  <summary><strong>Click to view diffrent versions</strong></summary>
+  <br>
 
 ---
 
@@ -60,5 +80,5 @@ A safer and more robust design compared to the base version.
 </details>
 
 ---
-
+</details>
 
