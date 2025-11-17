@@ -36,6 +36,7 @@ two development versions are included, each representing a step in the calculato
 
 ---
 
+
 ## 🔹 Version 01 — Base Calculator  
 Basic 5-operation module + simple testbench  
 📁 **Folder:** [01-calculator-base](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/01-calculator-base)
@@ -57,7 +58,10 @@ This version is the foundation for all later improvements.
 
 </details>
 
+
+
 ---
+
 
 ## 🔹 Version 02 — Division-by-Zero Handling  
 Adds safe divide-by-zero protection  
@@ -79,6 +83,35 @@ A safer and more robust design compared to the base version.
 
 </details>
 
+
 ---
+
+
+## 🔹 Version 03 — Power Operation Validation  
+Adds safe handling for exponentiation (`a ** b`)  
+📁 **Folder:** [03-calculator-power](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/03-calculator-power)
+
+<details>
+  <summary><strong>Click to view details</strong></summary>
+  <br>
+
+This version focuses on improving the power operation.
+
+### ✨ Improvements
+- Detects negative exponent inputs (`b < 0`)
+- Displays a warning for invalid power operations
+- If exponent is negative, result is set to `x`
+- Ensures predictable behavior for exponentiation
+
+This prevents undefined results for unsupported negative powers.
+
+</details>
+
+
+
+---
+
+
+
 </details>
 
