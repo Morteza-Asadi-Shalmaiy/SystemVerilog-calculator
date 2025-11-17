@@ -89,7 +89,7 @@ A safer and more robust design compared to the base version.
 
 ## 🔹 Version 03 — Power Operation Validation  
 Adds safe handling for exponentiation (`a ** b`)  
-📁 **Folder:** [03-calculator-power](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/03-calculator-power)
+📁 **Folder:** [03-calculator-power](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/03-calculator-power%20)
 
 <details>
   <summary><strong>Click to view details</strong></summary>
