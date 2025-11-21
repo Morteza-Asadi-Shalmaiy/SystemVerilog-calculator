@@ -111,6 +111,29 @@ This prevents undefined results for unsupported negative powers.
 
 ---
 
+## 🔹 Version 04 — 12-Digit Result Limiting  
+Adds overflow protection for output values  
+📁 **Folder:** [04-calculator-12digit-check](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/04-calculator-12digit-check)
+
+<details>
+  <summary><strong>Click to view details</strong></summary>
+  <br>
+
+This version introduces a numeric limit on the output result.
+
+### ✨ Improvements
+- Validates result range: ±999,999,999,999 (12 digits)
+- If result exceeds the limit:
+  - A warning is displayed
+  - Output is set to `x`
+- Protects system from overflow conditions
+
+Adds major safety and numerical stability to the design.
+
+</details>
+
+---
+
 
 
 </details>
