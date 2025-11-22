@@ -134,6 +134,30 @@ Adds major safety and numerical stability to the design.
 
 ---
 
+## 🔹 Version 05 — Extended Error Checking  
+Adds more robust and unified logical error handling  
+📁 **Folder:** [05-calculator-more-checking](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/05-calculator-more-checking)
+
+<details>
+  <summary><strong>Click to view details</strong></summary>
+  <br>
+
+This version expands and refines all safety mechanisms.
+
+### ✨ Improvements
+- Increased width to 64 bits for internal accuracy
+- Unified invalid-result assignment (`{nb{1'bx}}`)
+- Better handling for:
+  - Division-by-zero  
+  - Negative exponent  
+  - 12-digit overflow  
+- Much more consistent warning messages
+
+This version significantly improves design safety and predictability.
+
+</details>
+
+---
 
 
 </details>
