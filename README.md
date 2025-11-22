@@ -27,7 +27,7 @@ You can copy/paste the modules directly into EDA Playground and run the simulati
 ---
 
 # 📁 Versions
-two development versions are included, each representing a step in the calculator’s evolution.
+five development versions are included, each representing a step in the calculator’s evolution.
 **Expand the sections below for detailed version history.**
 
 <details>
