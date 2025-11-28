@@ -159,6 +159,28 @@ This version significantly improves design safety and predictability.
 
 ---
 
+## 🔹 Version 06 — Improved Testbench With Tasks  
+Introduces structured testing using SystemVerilog `task`  
+📁 **Folder:** [06-calculator-task-improved](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/06-calculator-task-improved)
+
+<details>
+  <summary><strong>Click to view details</strong></summary>
+  <br>
+
+This version focuses on improving testbench structure and readability.
+
+### ✨ Improvements
+- Added a reusable `task run_test(...)`
+- Simplifies repeated test cases
+- Produces cleaner, more organized simulation logs
+- Testbench is now more scalable and professional
+
+Functional behavior remains similar to Version 05 but with better testing quality.
+
+</details>
+
+---
+
 
 </details>
 
