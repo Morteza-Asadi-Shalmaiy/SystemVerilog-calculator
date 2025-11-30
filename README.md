@@ -181,6 +181,34 @@ Functional behavior remains similar to Version 05 but with better testing qualit
 
 ---
 
+## 🔹 Version 07 — Final Clean & Optimized Version  
+Fully polished, production-ready calculator design  
+📁 **Folder:** [07-calculator-final](https://github.com/Morteza-Asadi-Shalmaiy/SystemVerilog-calculator/tree/main/07-calculator-final)
+
+<details>
+  <summary><strong>Click to view details</strong></summary>
+  <br>
+
+This is the final and most optimized version of the digital calculator.
+
+### ✨ Final Improvements
+- Fully cleaned case-block logic
+- Localparams for 12-digit boundaries
+- Consistent `{nb{1'bx}}` usage for invalid results
+- Clear and structured warning messages
+- Best readability and maintainability
+
+### Testbench
+- Uses the improved task-based pattern
+- Includes extended edge-case tests
+- Clean and easy to understand output formatting
+
+This version is recommended as the main demonstration for your portfolio.
+
+</details>
+
+---
+
 
 </details>
 
